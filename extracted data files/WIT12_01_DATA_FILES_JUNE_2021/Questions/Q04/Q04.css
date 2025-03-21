@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer {
+    background-color: #ffe570;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+nav {
+    text-align: right;
+    padding-right: 15px;
+}
+
+nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    padding: 15px;
+    text-align: justify;
+}
+
+article h2 {
+    font-size: 20px;
+}
+
+article p {
+    font-size: 14px;
+}
+
+article img {
+    width: 100%;
+}
+
+/* Footer */
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) { 
+    
+    
+    
+
+        header h1 {
+            font-size: 40px;
+        }
+    
+        header h2 {
+            font-size: 30px;
+        }
+    
+        nav a {
+            font-size: 16px;
+        }
+    
+        article h2 {
+            font-size: 32px;
+        }
+    
+        article p {
+            font-size: 16px;
+        }
+    
+        article img {
+            width: 300px;
+        }
+    
+        .img-left {
+            float: left;
+            margin-right: 15px;
+        }
+    
+        .img-right {
+            float: right;
+            margin-left: 15px;
+        }
+    
+        footer p {
+            font-size: 16px;
+        }
+    }
+    
+    
+    
